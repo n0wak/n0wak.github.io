@@ -48,10 +48,11 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-size: 1em;
+  font-size: 2em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  background: #e7e7e7;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 300;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
 }
@@ -69,7 +70,8 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 300;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
@@ -152,18 +154,6 @@ a.button span {
   height: 23px;
 }
 
-#download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
-}
-#download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
-}
-#view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 0;
-}
 
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
@@ -192,11 +182,6 @@ pre code {
   padding: 0;
 }
 
-ul, ol, dl {
-  margin-bottom: 20px;
-}
-
-
 /* COMMON STYLES */
 
 hr {
@@ -205,7 +190,6 @@ hr {
   margin-top: 1em;
   padding-bottom: 1em;
   border: none;
-  background: transparent url('../images/hr.png') 50% 0 no-repeat;
 }
 
 strong {
@@ -309,7 +293,6 @@ dl dt {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -324,18 +307,7 @@ footer a:hover {
   color: #444;
 }
 
-/* MISC */
-.clearfix:after {
-  clear: both;
-  content: '.';
-  display: block;
-  visibility: hidden;
-  height: 0;
-}
 
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
 
 /* #Media Queries
 ================================================== */
